@@ -138,3 +138,5 @@ ALTER TABLE invoices RENAME COLUMN paymentdate TO paymenttime;
 DELETE FROM appointments WHERE animalid = 2; --sir walang animal na simba samin
 
 UPDATE doctors SET dlastname = 'Reyes-Gonzales' WHERE doctorid = 4;
+
+SELECT DISTINCT species FROM animals;
