@@ -70,3 +70,15 @@ INSERT INTO owners(ownerid, ofirstname, olastname, address, phone, email) VALUES
 (8, 'Hannah', 'Jaspe', 'Rosario', '09177778888', 'jowanibabu@gmail.com'),
 (9, 'Mark', 'Berte', 'Batangas', '09178889999', 'sibabu@gmail.com'),
 (10,'Arvin', 'Aquino', 'Lipa', '09179990000', 'tenor1@gmail.com');
+
+INSERT INTO animals(animalid, name, species, breed, dateofbirth, gender, color, ownerid) VALUES
+(1, 'Christian', 'Dog', 'Bulldog', 2020-06-01, 'Male', 'White', 1),
+(2, 'John', 'Cat', 'Siberian', 2025-12-01, 'Female', 'Pink', 2),
+(3, 'Prinz', 'Dog', 'Dobermann', 2023-10-06, 'Male', 'Black', 3),
+(4, 'Cheska', 'Cat', 'Sphynx', 2024-06-03, 'Female', 'White', 4),
+(5, 'Hope', 'Cat', 'Persian', 2020-07-08, 'Female', 'Green', 5),
+(6, 'Albin', 'Cat', 'Burmese', 2024-02-14, 'Male', 'Brown', 6),
+(7, 'Maemae', 'Dog', 'Chihuahua', 2022-07-01, 'Female', 'Brown', 7),
+(8, 'Babu', 'Cat', 'Siberian', 2019-10-11, 'Female', 'White', 8),
+(9, 'Tahimiklang', 'Dog', 'Bulldog', 2020-04-26, 'Male', 'White', 9),
+(10, 'Onyx', 'Dog', 'Shih Tzu', 2020-10-13, 'Male', 'Black', 10);
