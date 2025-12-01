@@ -135,3 +135,4 @@ ALTER TABLE invoices RENAME COLUMN paymenttime to paymentdate;
 
 ALTER TABLE invoices RENAME COLUMN paymentdate TO paymenttime;
 
+DELETE FROM appointments WHERE animalid = 2; --sir walang animal na simba samin
