@@ -82,3 +82,15 @@ INSERT INTO animals(animalid, name, species, breed, dateofbirth, gender, color, 
 (8, 'Babu', 'Cat', 'Siberian', 2019-10-11, 'Female', 'White', 8),
 (9, 'Tahimiklang', 'Dog', 'Bulldog', 2020-04-26, 'Male', 'White', 9),
 (10, 'Onyx', 'Dog', 'Shih Tzu', 2020-10-13, 'Male', 'Black', 10);
+
+INSERT INTO appointments(appointid, animalid, appointdate, reason) VALUES
+(1, 3, '2025-12-01 09:00:00', 'Vaccination'),          
+(2, 3, '2025-12-01 10:00:00', 'Check-up'),             
+(3, 3, '2025-12-01 11:00:00', 'Follow-up'),            
+(4, 1, '2025-12-01 09:30:00', 'Surgery consult'),
+(5, 2, '2025-12-01 14:00:00', 'Vaccination'),
+(6, 4, '2025-12-01 13:00:00', 'Dental cleaning'),
+(7, 5, '2025-12-01 08:00:00', 'Flea treatment'),
+(8, 6, '2025-12-01 16:00:00', 'Spaying'),
+(9, 7, '2025-12-01 10:30:00', 'Allergic reaction'),
+(10,10, '2025-12-01 12:00:00', 'Eye infection');
